@@ -1,0 +1,11 @@
+{
+  "name": "grype-mcp-server",
+  "version": "1.0.0",
+  "type": "module",
+  "author": "ahmetak4n",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.11.3",
+    "typescript": "^5.8.3"
+  }
+}

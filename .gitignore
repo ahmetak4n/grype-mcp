@@ -1,0 +1,10 @@
+# node module folders
+node_modules
+**/node_modules
+
+# lock files
+yarn.lock
+package-lock.json
+
+# scan result files
+result.json
