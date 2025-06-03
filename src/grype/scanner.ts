@@ -7,7 +7,7 @@ export const GrypeScan = (scanType: string, scanTarget: string) => {
   const jsonResult = JSON.parse(grype.stdout.toString());
   const grypeResult: GrypeResult[] = [];
  
-  jsonSchema.matches.forEach((data) => {
+  jsonResult.matches.forEach((data) => {
     const result: GrypeResult = {
       id: data.vulnerability.id,
       severity: data.vulnerability.severity,
